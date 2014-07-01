@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Adamkearsley\\ConvertMigrations": "src/"
+            "Peet86\\ConvertMigrations": "src/"
         }
     },
     "minimum-stability": "stable"
