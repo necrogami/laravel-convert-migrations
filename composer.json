@@ -1,9 +1,9 @@
 {
-    "name": "adamkearsley/convert-migrations",
+    "name": "peet86/convert-migrations",
     "description": "Artisan command to convert your current SQL database schema into a Laravel 4 Migration file.",
     "authors": [
         {
-            "name": "Adam Kearsley",
+            "name": "Adam Kearsley, Peter Varga",
             "email": "adam@email.com"
         }
     ],
