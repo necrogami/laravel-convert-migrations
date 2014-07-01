@@ -8,11 +8,11 @@ This is an artisan command to convert your current SQL database schema into a La
 
 ```json
 "require": {
-    "peet86/convert-migrations": "dev-master"
+    "adamkearsley/convert-migrations": "dev-master"
 }
 ```
 
-2. Add `'Peet86\ConvertMigrations\ConvertMigrationsServiceProvider'` to your `app/config/app.php` file, inside the `providers` array.
+2. Add `'Adamkearsley\ConvertMigrations\ConvertMigrationsServiceProvider'` to your `app/config/app.php` file, inside the `providers` array.
 
 ## Usage
 
