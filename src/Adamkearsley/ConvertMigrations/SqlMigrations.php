@@ -164,6 +164,9 @@ public function down()
                     case 'bigint' :
                         $method = 'bigInteger';
                         break;
+                    case 'smallint' :
+                        $method = 'smallInteger';
+                        break;
                     case 'char' :
                     case 'varchar' :
                         $para = strpos($values->Type, '(');
@@ -199,6 +202,12 @@ public function down()
                         break;
                     case 'text' :
                         $method = 'text';
+                        break;
+                    case 'longtext' :
+                        $method = 'longText';
+                        break;
+                    case 'blob' :
+                        $method = 'binary';
                         break;
                 }
                 if ($values->Key == 'PRI') {
